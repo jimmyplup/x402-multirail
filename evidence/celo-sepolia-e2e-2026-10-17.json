@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-17T14:49:45.512Z",
+  "rail": "celo-sepolia",
+  "caip2": "eip155:11142220",
+  "asset": "0x01C5C0122039549AD1493B8220cABEdD739BC44E",
+  "payTo": "0x5320c63881b944fc8468e4ff6f190ba89bd7c429",
+  "buyer": "0xea31b023c3e17712cf9a912af529594aa780d2b6",
+  "facilitator": "https://api.x402.sepolia.celo.org",
+  "auth": "api key (X-API-Key)",
+  "tag": "internal-test (testnet, faucet funds)",
+  "steps": [
+    {
+      "door": "topup",
+      "httpStatus": 200,
+      "quotedAtomic": "50000",
+      "tx": "0x46b53ea3a432ec05ffe67d817d0177915426724fd94473b0791fe854c952f295",
+      "credits": 219973,
+      "explorer": "https://celo-sepolia.blockscout.com/tx/0x46b53ea3a432ec05ffe67d817d0177915426724fd94473b0791fe854c952f295",
+      "payToDeltaAtomic": "50000"
+    },
+    {
+      "door": "chat/completions (stub model)",
+      "httpStatus": 200,
+      "quotedAtomic": "10000",
+      "tx": "0xd39be37638c255e23b9ad245c0ba7bc811ca3b1b4c0e7bd1a3570a116db00180",
+      "completion": "[stub model] paid call served",
+      "explorer": "https://celo-sepolia.blockscout.com/tx/0xd39be37638c255e23b9ad245c0ba7bc811ca3b1b4c0e7bd1a3570a116db00180",
+      "payToDeltaAtomic": "10000"
+    }
+  ],
+  "payToBalanceAtomic": {
+    "before": "0",
+    "after": "60000"
+  },
+  "buyerBalanceAtomic": {
+    "before": "20000000",
+    "after": "19940000"
+  },
+  "ok": true
+}

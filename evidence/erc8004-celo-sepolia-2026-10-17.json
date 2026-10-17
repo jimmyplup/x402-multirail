@@ -1,0 +1,15 @@
+{
+  "what": "ERC-8004 identity registered on Celo Sepolia (testnet rehearsal, $0 — faucet CELO)",
+  "network": "celo-sepolia (eip155:11142220)",
+  "identityRegistry": "0x8004A818BFB912233c491871b3d84c89A494BD9e",
+  "agentId": 619,
+  "owner": "0x5320C63881b944Fc8468e4fF6F190ba89Bd7c429 (testnet-only key, Keychain linkrra-erc8004-testnet/erc8004-testnet)",
+  "agentURI": "https://pool.linkrra.com/.well-known/agent-registration.json",
+  "registerTx": "0xcfe90e30116dbc4daca146ab4f24ff2c323ac003f5931efc4ecd1aa25b8373ec",
+  "registerTxExplorer": "https://celo-sepolia.blockscout.com/tx/0xcfe90e30116dbc4daca146ab4f24ff2c323ac003f5931efc4ecd1aa25b8373ec",
+  "block": 38964113,
+  "gasUsed": 177936,
+  "faucetTx": "0xda250b2cc2b642ac361a83a50b13731f5df685946f6ce30dea18336bbe007977 (Google Cloud Web3 faucet, 1 Sepolia CELO, logged in as michael@linkrra.com)",
+  "verifiedIndependently": "eth_call ownerOf(619) and tokenURI(619) on forno Celo Sepolia, 2026-10-17 — matched owner and URI; receipt status 0x1",
+  "ERC8004_REGISTRATIONS": "eip155:11142220:0x8004A818BFB912233c491871b3d84c89A494BD9e:619"
+}

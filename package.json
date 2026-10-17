@@ -1,0 +1,14 @@
+{
+  "name": "x402-multirail",
+  "version": "0.1.0",
+  "description": "Multi-chain x402 seller rails for Express: Base, Celo (USDC/USDT/USA₮) and Arc, with per-chain EIP-712 domains proven against the chain, Celo facilitator + Circle Facilitator Service auth, and on-chain settlement confirmation.",
+  "license": "MIT",
+  "author": "Linkrra LLC",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "test": "node --test test/test-x402.js test/test-x402-networks.js test/test-x402-rails.js test/test-erc8004.js",
+    "probe": "node scripts/x402-rail-probe.js",
+    "example": "node server.example.js"
+  },
+  "dependencies": { "express": "^4.19.0" }
+}

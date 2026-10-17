@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-17T14:44:08.497Z",
+  "rail": "arc-testnet",
+  "caip2": "eip155:5042002",
+  "asset": "0x3600000000000000000000000000000000000000",
+  "payTo": "0x5320c63881b944fc8468e4ff6f190ba89bd7c429",
+  "buyer": "0xea31b023c3e17712cf9a912af529594aa780d2b6",
+  "facilitator": "https://api.circle.com/v1/facilitator/x402",
+  "auth": "Circle keyless trial (Facilitator-Seller-Proof)",
+  "tag": "internal-test (testnet, faucet funds)",
+  "steps": [
+    {
+      "door": "topup",
+      "httpStatus": 200,
+      "quotedAtomic": "50000",
+      "tx": "0x3262a8c865db3674cea88bc9ce6e6cc9ea826224e48fdaff436fd40d7117832e",
+      "credits": 219973,
+      "explorer": "https://explorer.testnet.arc.io/tx/0x3262a8c865db3674cea88bc9ce6e6cc9ea826224e48fdaff436fd40d7117832e",
+      "payToDeltaAtomic": "50000"
+    },
+    {
+      "door": "chat/completions (stub model)",
+      "httpStatus": 200,
+      "quotedAtomic": "10000",
+      "tx": "0x7034ed49e6f481321f7837b9a9aa8964e50efcb317824c9a4eeeb379f36df073",
+      "completion": "[stub model] paid call served",
+      "explorer": "https://explorer.testnet.arc.io/tx/0x7034ed49e6f481321f7837b9a9aa8964e50efcb317824c9a4eeeb379f36df073",
+      "payToDeltaAtomic": "10000"
+    }
+  ],
+  "payToBalanceAtomic": {
+    "before": "0",
+    "after": "60000"
+  },
+  "buyerBalanceAtomic": {
+    "before": "20000000",
+    "after": "19940000"
+  },
+  "ok": true
+}

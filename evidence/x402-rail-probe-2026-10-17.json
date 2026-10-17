@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-17T14:36:00.710Z",
+  "payer": "0x18e40114d726078901c63e235ae48c16c354921f (throwaway, unfunded, never stored)",
+  "arcProbePayTo": "0xf2f69487517e562baf214cbab6135f0272abb239 (throwaway seller-proof key)",
+  "ok": true,
+  "results": [
+    {
+      "network": "eip155:42220",
+      "asset": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "domain": "USDC v2",
+      "httpStatus": 402,
+      "facilitatorVerdict": "insufficient_funds",
+      "controlVerdict": "invalid_exact_evm_payload_signature",
+      "signatureAccepted": true,
+      "ms": 1033
+    },
+    {
+      "network": "eip155:42220",
+      "asset": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+      "domain": "Tether USD v1",
+      "httpStatus": 402,
+      "facilitatorVerdict": "insufficient_funds",
+      "controlVerdict": "invalid_exact_evm_payload_signature",
+      "signatureAccepted": true,
+      "ms": 945
+    },
+    {
+      "network": "eip155:42220",
+      "asset": "0xD2ab3C9A02DBBAB236BfEC45D1d755DF4267F771",
+      "domain": "Tether America USD v1",
+      "httpStatus": 402,
+      "facilitatorVerdict": "insufficient_funds",
+      "controlVerdict": "invalid_exact_evm_payload_signature",
+      "signatureAccepted": true,
+      "ms": 789
+    },
+    {
+      "network": "eip155:11142220",
+      "asset": "0x01C5C0122039549AD1493B8220cABEdD739BC44E",
+      "domain": "USDC v2",
+      "httpStatus": 402,
+      "facilitatorVerdict": "insufficient_funds",
+      "controlVerdict": "invalid_exact_evm_payload_signature",
+      "signatureAccepted": true,
+      "ms": 1128
+    },
+    {
+      "network": "eip155:5042",
+      "asset": "0x3600000000000000000000000000000000000000",
+      "domain": "USDC v2",
+      "httpStatus": 402,
+      "facilitatorVerdict": "insufficient_funds",
+      "controlVerdict": "invalid_exact_evm_payload_signature",
+      "signatureAccepted": true,
+      "ms": 679
+    },
+    {
+      "network": "eip155:5042002",
+      "asset": "0x3600000000000000000000000000000000000000",
+      "domain": "USDC v2",
+      "httpStatus": 402,
+      "facilitatorVerdict": "insufficient_funds",
+      "controlVerdict": "invalid_exact_evm_payload_signature",
+      "signatureAccepted": true,
+      "ms": 526
+    }
+  ]
+}
